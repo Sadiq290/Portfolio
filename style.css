@@ -1,10 +1,86 @@
 h1{
-    font-size:45px;
+    font-size:50px;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size:30px;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: justify;
 }
 #Sadiq{
     color:palevioletred;
+}
+.pic{
+    width: 40%;
+    margin-left:5%;
+    float: left;
+    
+}
+img{
+    width:100%;
+    margin-bottom:12%;
+}
+.top-banner{
+    background-image:url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+    margin-bottom: 150px;
+}
+.link{
+    color: seashell;
+    text-decoration: none;
+    background-color: red;
+    padding:10px 10px;
+    border-radius:6px;
+
+}
+h3{
+    color: chocolate;
+    margin-bottom:3%;
+}
+.dream{
+    background-image:url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    padding-left:50px;
+    width:100%;
+    background-image:url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}  
+.type{
+    width:40%;
+    float: left;
+}
+.shadow{
+    border-radius:5px;
+    box-shadow:10px 10px 50px grey;
+    padding:15px;
+    width:40%;
+    height:320px ;    
+    background-color: white;
+}
+#Full{
+    border-left:5px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice:1;
+    margin-right:7%;
+}
+#Baby{
+    border-left:5px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice:1 ;
+}
+footer{
+    text-align: center;
+    font-size:15px;
 }
